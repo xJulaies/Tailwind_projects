@@ -50,7 +50,7 @@
                 <ul class="p-2">
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/patchnotes.html"
+                      href="/Tailwind_projects/002/src/assets/link/news.html#patchnotes"
                       >Patchnotes</a
                     >
                   </li>
@@ -98,13 +98,13 @@
                 <ul class="p-2">
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/bundles.html"
+                      href="/Tailwind_projects/002/src/assets/link/shop.html#bundles"
                       >Bundles</a
                     >
                   </li>
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/patchnotes.html"
+                      href="/Tailwind_projects/002/src/assets/link/shop.html#pearls"
                       >Coins</a
                     >
                   </li>
@@ -134,7 +134,7 @@
                 <ul class="p-2 w-40 z-1">
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/patchnotes.html"
+                      href="/Tailwind_projects/002/src/assets/link/news.html#patchnotes"
                       >Patchnotes</a
                     >
                   </li>
@@ -184,13 +184,13 @@
                 <ul class="p-2 w-40 z-1">
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/bundles.html"
+                      href="/Tailwind_projects/002/src/assets/link/shop.html#bundles"
                       >Bundles</a
                     >
                   </li>
                   <li>
                     <a
-                      href="/Tailwind_projects/002/src/assets/link/patchnotes.html"
+                      href="/Tailwind_projects/002/src/assets/link/shop.html#pearls"
                       >Coins</a
                     >
                   </li>
@@ -271,11 +271,18 @@
           >
         </div></a
       >
-      <section
-        class="flex flex-wrap justify-center gap-8 mx-16 md:mx-32 px-16 py-64 bg-[url(/Tailwind_projects/002/src/assets/images/treasure.png)] bg-auto md:bg-cover"
+      <div id="bundles" class="h-16"></div>
+      <div
+        class="flex justify-center text-5xl font-bold font-serif grow bg-base-400 p-4 mb-4 bg-neutral-600 text-neutral-200"
       >
-        <div class="card w-96 bg-base-100 shadow-sm">
-          <div class="card-body">
+        <h1 class="">Bundles</h1>
+      </div>
+
+      <section
+        class="flex flex-wrap justify-center md:gap-8 gap-24 md:mx-32 px-16 py-24 bg-[url(/Tailwind_projects/002/src/assets/images/treasure.png)] md:bg-scroll bg-fixed bg-center bg-contain bg-no-repeat"
+      >
+        <div class="card w-96 bg-base-300 shadow-sm">
+          <div class="card-body justify-between">
             <span class="badge badge-xs badge-warning">For Newbies</span>
             <div class="flex justify-between">
               <h2 class="text-3xl font-bold">Explorer Edition</h2>
@@ -461,13 +468,15 @@
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-sm">
-          <div class="card-body">
+        <div class="card w-96 bg-base-300 shadow-sm">
+          <div class="card-body justify-between">
             <span class="badge badge-xs badge-warning">Most Popular</span>
             <div class="flex justify-between">
               <h2 class="text-3xl font-bold">Traveler Edition</h2>
-              <span class="text-xl line-through">$39.99</span>
-              <span class="text-2xl rounded-full text-yellow-400">$3.99</span>
+              <div class="flex flex-col">
+                <span class="text-xs text-end line-through">$39.99</span>
+                <span class="text-2xl rounded-full text-yellow-400">$3.99</span>
+              </div>
             </div>
             <ul class="mt-6 flex flex-col gap-2 text-xs">
               <li>
@@ -649,8 +658,8 @@
             </div>
           </div>
         </div>
-        <div class="card w-96 bg-base-100 shadow-sm">
-          <div class="card-body">
+        <div class="card w-96 bg-base-300 shadow-sm">
+          <div class="card-body justify-between">
             <span class="badge badge-xs badge-warning">Best Value</span>
             <div class="flex justify-between">
               <h2 class="text-3xl font-bold">Adventurer Edition</h2>
@@ -833,6 +842,108 @@
               <button class="btn btn-primary btn-block">Buy now!</button>
             </div>
           </div>
+        </div>
+      </section>
+      <div id="pearls" class="h-16"></div>
+      <div
+        class="flex justify-center text-5xl font-bold font-serif grow bg-base-400 p-4 m-4 bg-neutral-600 text-neutral-200"
+      >
+        <h1>Pearls</h1>
+      </div>
+      <section class="flex flex-wrap md:gap-8 gap-16 md:mx-16 px-8 py-16">
+        <div class="card bg-slate-500 w-96 shadow-sm">
+          <figure>
+            <img
+              class="grow min-h-32"
+              src="/Tailwind_projects/002/src/assets/images/Pearl_1.png"
+              alt="One box of pearls"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">1000 Pearls</h2>
+            <p>A Handful of Pearls.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary bg-stone-900 border-none text-2xl">
+                $9,99
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-slate-500 w-96 shadow-sm">
+          <figure>
+            <img
+              class="grow min-h-32"
+              src="/Tailwind_projects/002/src/assets/images/Pearl_2.png"
+              alt="Two boxes of pearls"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">2000 (+200) Pearls</h2>
+            <p>A Box of Pearls.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary bg-stone-900 border-none text-2xl">
+                $19,99
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-slate-500 w-96 shadow-sm">
+          <figure>
+            <img
+              class="grow min-h-32"
+              src="/Tailwind_projects/002/src/assets/images/Pearl_3.png"
+              alt="Three boxes of pearls"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">4000 (+800) Pearls</h2>
+            <p>A Trunk full of Pearls.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary bg-stone-900 border-none text-2xl">
+                $39,99
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card bg-slate-500 w-96 shadow-sm">
+          <figure>
+            <img
+              class="grow min-h-32"
+              src="/Tailwind_projects/002/src/assets/images/Pearl_4.png"
+              alt="Four boxes of pearls"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">8000 (+1600) Pearls</h2>
+            <p>A Treasure Chest filled with Pearls.</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary bg-stone-900 border-none text-2xl">
+                $79.99
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex flex-col flex-wrap p-16">
+          <ul>
+            <p class="font-bold text-3xl pb-4">Notices</p>
+            <li>
+              - All Pearls Recharges/Purchases are final and cannot be
+              refunded/withdrawn as stated in the Terms of Service ARTICLE 21.
+              REFUND OF PEARLS/PAID CONTENT.
+            </li>
+            <li>
+              - Please verify you have the correct account and amount before
+              completing your purchase.
+            </li>
+            <li>- Pearls is used in the order it was purchased.</li>
+            <li>
+              - Steam users cannot purchase Pearls on the official website.
+              Instead, Steam users can purchase Pearls from the in-game [Pearl
+              Shop → Pearls Recharge] menu.
+            </li>
+          </ul>
         </div>
       </section>
     </main>
