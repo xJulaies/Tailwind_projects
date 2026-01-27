@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="/Tailwind_projects/003/src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b17b0f21ca.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Document</title>
+  </head>
+  <body class="orbitron-500" >
+    <header class="navbar_section sticky top-0 z-50">
+      <div class="navbar bg-base-100 shadow-sm">
+        <div tabindex="0" class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="-1"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#snt">Skills and Tools</a></li>
+              <li><a href="#projects">My Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Julaies</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#snt">Skills and Tools</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a
+            href="https://github.com/xJulaies/"
+            target="_blank"
+            class="btn h-8 w-16 bg-base-100 border-none"
+          >
+            <img
+              src="/Tailwind_projects/003/src/images/Git_Hub.png"
+              alt="The Git-Hub logo in white"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero_section" id="home">
+        <div
+          class="hero min-h-screen"
+          style="
+            background-image: url(/Tailwind_projects/003/src/images/hero_bg.png);
+          "
+        >
+          <div class="hero-overlay"></div>
+          <div
+            class="hero-content text-neutral-content text-center bg-base-100/60 rounded-box"
+          >
+            <div
+              class=" max-w-xl flex flex-col gap-2 text-center items-center"
+            >
+              <h1 class=" mb-5 text-5xl font-bold">Julaies Webdeveloper</h1>
+              <p class="mb-5">
+                I am Julaies and I transforms ideas into scalable, modern web
+                applications — where design meets performance and innovation
+                drives every line of code.
+              </p>
+              <a href="#about">
+                <button class="btn btn-primary w-40">Find out more!</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="h-16" id="about"></div>
+      </section>
+      <section class="about_section flex justify-center">
+        <div class="">
+          <img class="hidden lg:block" src="/Tailwind_projects/003/src/images/journey.png" alt="A road leading towards a city with skyscrapers, everything in blue tones" />
+        </div>
+        <div
+          class="flex flex-col justify-center bg-base-300 rounded-box max-w-xl min-h-screen bg-desktop-none"
+          style="background-image:linear-gradient(rgba(37, 12, 78, 0.438), rgba(35, 16, 87, 0.9)), url(/Tailwind_projects/003/src/images/journey.png)"
+         
+        >
+          <div class="bg-center rounded-t-box w-full h-16"></div>
+          <div class="flex flex-col gap-6 p-6">
+            <h3 class="text-secondary font-medium">About me</h3>
+
+            <h2 class="text-xl font-bold">My journey into IT</h2>
+
+            <span class="leading-10 
+             tracking-wider">
+              My journey into IT began with a passion for gaming and computers,
+              which naturally evolved into a curiosity for coding. As a
+              self‑taught developer, I deepened my skills through hands‑on
+              projects and a year of formal training in web development. Over
+              time, I developed a strong sense for clean, efficient code and
+              modern design principles. Today, I focus on crafting full‑stack
+              solutions using JavaScript, HTML, CSS, and Tailwind, bringing both
+              functionality and style to the web.
+            </span>
+
+            <div class="flex gap-2 justify-between items-center"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="h-16"></div>
+      </section>
+       <div class="h-16" id="snt"></div>
+      <section>
+        <div class="flex flex-col items-center min-h-screen justify-center bg-base-300 p-4 ">
+          <h3 class=" flex justify-center text-secondary font-medium p-5">Skills and Tools</h3>
+              <div class="flex flex-wrap justify-center gap-2 p-10">
+              <div class="badge badge-xl bg-gray-100 text-base-100">HTML</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">CSS</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">JavaScript</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">Tailwind</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">n8n</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">Git</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">Git-Hub</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">Python</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">C</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">npm</div>
+              <div class="badge badge-xl bg-gray-100 text-base-100">React</div></div>
+      </section>
+      <div class="h-16" id="contact"></div>
+      <section class="flex flex-col gap-4 items-center justify-center min-h-screen">
+        <h3 class="text-secondary font-medium">Contact me</h3>
+        <label class="input validator ">
+  <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <g
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="2.5"
+      fill="none"
+      stroke="currentColor"
+    >
+      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+    </g>
+  </svg>
+  <input type="email" placeholder="yourmail@site.com" required />
+</label>
+<div class="validator-hint hidden">Enter valid email address</div>
+      </section>
+       </main>
+      <footer
+        class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10"
+      >
+        <aside>
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            class="fill-current"
+          >
+            <path
+              d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"
+            ></path>
+          </svg>
+          <p>
+            Julaies
+            <br />
+            Copyright © 2026 - All right reserved 
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Social</h6>
+          <div class="grid grid-flow-col gap-4">
+            <a href="https://github.com/xJulaies/" target="_blank">
+              <i class="fa-brands fa-github fa-3x"></i>
+            </a>
+            <a href="https://twitch.tv/Julaies" target="_blank">
+             <i class="fa-brands fa-twitch fa-3x"></i>
+            <a href="https://www.linkedin.com/in/julius-steffen-312748395/" target="_blank">
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+            </a>
+          </div>
+        </nav>
+      </footer>
+   
+  </body>
+</html>
