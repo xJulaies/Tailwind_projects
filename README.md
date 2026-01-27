@@ -1,3 +1,3 @@
-# Rebuild_project
+# Tailwind_projects
 
 Practice DaisyUI-Tailwind
