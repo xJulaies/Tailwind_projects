@@ -22,5 +22,10 @@ body {
         }
       }
     }
+    .dropdown-menu {
+      display: none;
+      flex-direction: column;
+      list-style: none;
+    }
   }
 }

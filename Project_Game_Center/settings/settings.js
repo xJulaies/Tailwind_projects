@@ -15,8 +15,25 @@ export const settings = {
     //item 3
     {
       label: "Games",
-      url: "/Projects/Project_Game_Center/games.html",
+      url: "#",
       id: "games",
+      children: [
+        {
+          label: "Sudoku",
+          url: "/projects/Project_Game_Center/sudoku.html",
+          id: "sudoku",
+        },
+        {
+          label: "Sudoku",
+          url: "/projects/Project_Game_Center/sudoku.html",
+          id: "sudoku",
+        },
+        {
+          label: "Sudoku",
+          url: "/projects/Project_Game_Center/sudoku.html",
+          id: "sudoku",
+        },
+      ],
     },
   ],
 };
